@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: cb1ffeeb90ce24f98bb6e25e36c83fd4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Farm_Stabbur_1_fracturepart1
+    100004: Farm_Stabbur_1_fracturepart10
+    100006: Farm_Stabbur_1_fracturepart11
+    100008: Farm_Stabbur_1_fracturepart12
+    100010: Farm_Stabbur_1_fracturepart13
+    100012: Farm_Stabbur_1_fracturepart14
+    100014: Farm_Stabbur_1_fracturepart15
+    100016: Farm_Stabbur_1_fracturepart16
+    100018: Farm_Stabbur_1_fracturepart2
+    100020: Farm_Stabbur_1_fracturepart3
+    100022: Farm_Stabbur_1_fracturepart3_2
+    100024: Farm_Stabbur_1_fracturepart4
+    100026: Farm_Stabbur_1_fracturepart5
+    100028: Farm_Stabbur_1_fracturepart6
+    100030: Farm_Stabbur_1_fracturepart7
+    100032: Farm_Stabbur_1_fracturepart8
+    100034: Farm_Stabbur_1_fracturepart8_2
+    100036: Farm_Stabbur_1_fracturepart9
+    400000: //RootNode
+    400002: Farm_Stabbur_1_fracturepart1
+    400004: Farm_Stabbur_1_fracturepart10
+    400006: Farm_Stabbur_1_fracturepart11
+    400008: Farm_Stabbur_1_fracturepart12
+    400010: Farm_Stabbur_1_fracturepart13
+    400012: Farm_Stabbur_1_fracturepart14
+    400014: Farm_Stabbur_1_fracturepart15
+    400016: Farm_Stabbur_1_fracturepart16
+    400018: Farm_Stabbur_1_fracturepart2
+    400020: Farm_Stabbur_1_fracturepart3
+    400022: Farm_Stabbur_1_fracturepart3_2
+    400024: Farm_Stabbur_1_fracturepart4
+    400026: Farm_Stabbur_1_fracturepart5
+    400028: Farm_Stabbur_1_fracturepart6
+    400030: Farm_Stabbur_1_fracturepart7
+    400032: Farm_Stabbur_1_fracturepart8
+    400034: Farm_Stabbur_1_fracturepart8_2
+    400036: Farm_Stabbur_1_fracturepart9
+    2100000: svart tak.002
+    2100002: No Name
+    2100004: hvitekarmer
+    2100006: "brun d\xF8r.002"
+    2100008: "m\xF8rke bl\xE5 vinduer"
+    2300000: Farm_Stabbur_1_fracturepart1
+    2300002: Farm_Stabbur_1_fracturepart10
+    2300004: Farm_Stabbur_1_fracturepart11
+    2300006: Farm_Stabbur_1_fracturepart12
+    2300008: Farm_Stabbur_1_fracturepart13
+    2300010: Farm_Stabbur_1_fracturepart14
+    2300012: Farm_Stabbur_1_fracturepart15
+    2300014: Farm_Stabbur_1_fracturepart16
+    2300016: Farm_Stabbur_1_fracturepart2
+    2300018: Farm_Stabbur_1_fracturepart3
+    2300020: Farm_Stabbur_1_fracturepart3_2
+    2300022: Farm_Stabbur_1_fracturepart4
+    2300024: Farm_Stabbur_1_fracturepart5
+    2300026: Farm_Stabbur_1_fracturepart6
+    2300028: Farm_Stabbur_1_fracturepart7
+    2300030: Farm_Stabbur_1_fracturepart8
+    2300032: Farm_Stabbur_1_fracturepart8_2
+    2300034: Farm_Stabbur_1_fracturepart9
+    3300000: Farm_Stabbur_1_fracturepart1
+    3300002: Farm_Stabbur_1_fracturepart10
+    3300004: Farm_Stabbur_1_fracturepart11
+    3300006: Farm_Stabbur_1_fracturepart12
+    3300008: Farm_Stabbur_1_fracturepart13
+    3300010: Farm_Stabbur_1_fracturepart14
+    3300012: Farm_Stabbur_1_fracturepart15
+    3300014: Farm_Stabbur_1_fracturepart16
+    3300016: Farm_Stabbur_1_fracturepart2
+    3300018: Farm_Stabbur_1_fracturepart3
+    3300020: Farm_Stabbur_1_fracturepart3_2
+    3300022: Farm_Stabbur_1_fracturepart4
+    3300024: Farm_Stabbur_1_fracturepart5
+    3300026: Farm_Stabbur_1_fracturepart6
+    3300028: Farm_Stabbur_1_fracturepart7
+    3300030: Farm_Stabbur_1_fracturepart8
+    3300032: Farm_Stabbur_1_fracturepart8_2
+    3300034: Farm_Stabbur_1_fracturepart9
+    4300000: Farm_Stabbur_1_fracturepart1
+    4300002: Farm_Stabbur_1_fracturepart2
+    4300004: Farm_Stabbur_1_fracturepart3
+    4300006: Farm_Stabbur_1_fracturepart3_2
+    4300008: Farm_Stabbur_1_fracturepart4
+    4300010: Farm_Stabbur_1_fracturepart5
+    4300012: Farm_Stabbur_1_fracturepart6
+    4300014: Farm_Stabbur_1_fracturepart7
+    4300016: Farm_Stabbur_1_fracturepart8
+    4300018: Farm_Stabbur_1_fracturepart8_2
+    4300020: Farm_Stabbur_1_fracturepart9
+    4300022: Farm_Stabbur_1_fracturepart10
+    4300024: Farm_Stabbur_1_fracturepart11
+    4300026: Farm_Stabbur_1_fracturepart12
+    4300028: Farm_Stabbur_1_fracturepart13
+    4300030: Farm_Stabbur_1_fracturepart14
+    4300032: Farm_Stabbur_1_fracturepart15
+    4300034: Farm_Stabbur_1_fracturepart16
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

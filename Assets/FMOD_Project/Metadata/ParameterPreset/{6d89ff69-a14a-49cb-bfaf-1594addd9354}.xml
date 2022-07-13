@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{6d89ff69-a14a-49cb-bfaf-1594addd9354}">
+        <property name="name">
+            <value>Glass</value>
+        </property>
+        <relationship name="folder">
+            <destination>{b6c7ccc4-e5b5-4c6e-bdf9-9f53cce8f2a3}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{4b5eaddc-9820-4039-bd67-836e760ed983}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{4b5eaddc-9820-4039-bd67-836e760ed983}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

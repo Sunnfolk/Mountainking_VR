@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 4ab6c1427228dd94181cfc1805e3275f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Forest_Animal_Fox_1_1
+    100002: Forest_Animal_Fox_1_2
+    100004: //RootNode
+    100006: Joint
+    100008: Joint_1
+    100010: Joint_1_2
+    100012: Joint_1_3
+    100014: Joint_1_4
+    100016: Joint_2
+    100018: Joint_2_2
+    100020: Joint_2_3
+    100022: Joint_2_4
+    100024: Joint_2_5
+    100026: Joint_2_6
+    100028: Joint_3
+    100030: Joint_3_2
+    100032: Joint_3_3
+    100034: Joint_3_4
+    100036: Joint_3_5
+    100038: Joint_3_6
+    100040: Joint_4
+    100042: Joint_4_2
+    100044: Null
+    100046: Root
+    100048: Root_1
+    100050: Root_2
+    100052: Root_3
+    100054: Root_4
+    400000: Forest_Animal_Fox_1_1
+    400002: Forest_Animal_Fox_1_2
+    400004: //RootNode
+    400006: Joint
+    400008: Joint_1
+    400010: Joint_1_2
+    400012: Joint_1_3
+    400014: Joint_1_4
+    400016: Joint_2
+    400018: Joint_2_2
+    400020: Joint_2_3
+    400022: Joint_2_4
+    400024: Joint_2_5
+    400026: Joint_2_6
+    400028: Joint_3
+    400030: Joint_3_2
+    400032: Joint_3_3
+    400034: Joint_3_4
+    400036: Joint_3_5
+    400038: Joint_3_6
+    400040: Joint_4
+    400042: Joint_4_2
+    400044: Null
+    400046: Root
+    400048: Root_1
+    400050: Root_2
+    400052: Root_3
+    400054: Root_4
+    2100000: Fox_red
+    2100002: Fox_white
+    2100004: Fox_dark_red
+    4300000: Forest_Animal_Fox_1_1
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+    13700000: Forest_Animal_Fox_1_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 6f786aae8ebc343c99bfd78ea43bdb20
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Village_Hotel_1_fracturepart1
+    100004: Village_Hotel_1_fracturepart10
+    100006: Village_Hotel_1_fracturepart10_2
+    100008: Village_Hotel_1_fracturepart11
+    100010: Village_Hotel_1_fracturepart11_2
+    100012: Village_Hotel_1_fracturepart12
+    100014: Village_Hotel_1_fracturepart12_2
+    100016: Village_Hotel_1_fracturepart13
+    100018: Village_Hotel_1_fracturepart13_2
+    100020: Village_Hotel_1_fracturepart14
+    100022: Village_Hotel_1_fracturepart15
+    100024: Village_Hotel_1_fracturepart15_2
+    100026: Village_Hotel_1_fracturepart16
+    100028: Village_Hotel_1_fracturepart16_2
+    100030: Village_Hotel_1_fracturepart17
+    100032: Village_Hotel_1_fracturepart17_2
+    100034: Village_Hotel_1_fracturepart18
+    100036: Village_Hotel_1_fracturepart18_2
+    100038: Village_Hotel_1_fracturepart1_2
+    100040: Village_Hotel_1_fracturepart1_3
+    100042: Village_Hotel_1_fracturepart2
+    100044: Village_Hotel_1_fracturepart2_2
+    100046: Village_Hotel_1_fracturepart2_3
+    100048: Village_Hotel_1_fracturepart3
+    100050: Village_Hotel_1_fracturepart3_2
+    100052: Village_Hotel_1_fracturepart4
+    100054: Village_Hotel_1_fracturepart4_2
+    100056: Village_Hotel_1_fracturepart4_3
+    100058: Village_Hotel_1_fracturepart5
+    100060: Village_Hotel_1_fracturepart5_2
+    100062: Village_Hotel_1_fracturepart5_3
+    100064: Village_Hotel_1_fracturepart5_4
+    100066: Village_Hotel_1_fracturepart6
+    100068: Village_Hotel_1_fracturepart6_2
+    100070: Village_Hotel_1_fracturepart7
+    100072: Village_Hotel_1_fracturepart7_2
+    100074: Village_Hotel_1_fracturepart8
+    100076: Village_Hotel_1_fracturepart9
+    100078: Village_Hotel_1_fracturepart9_2
+    400000: //RootNode
+    400002: Village_Hotel_1_fracturepart1
+    400004: Village_Hotel_1_fracturepart10
+    400006: Village_Hotel_1_fracturepart10_2
+    400008: Village_Hotel_1_fracturepart11
+    400010: Village_Hotel_1_fracturepart11_2
+    400012: Village_Hotel_1_fracturepart12
+    400014: Village_Hotel_1_fracturepart12_2
+    400016: Village_Hotel_1_fracturepart13
+    400018: Village_Hotel_1_fracturepart13_2
+    400020: Village_Hotel_1_fracturepart14
+    400022: Village_Hotel_1_fracturepart15
+    400024: Village_Hotel_1_fracturepart15_2
+    400026: Village_Hotel_1_fracturepart16
+    400028: Village_Hotel_1_fracturepart16_2
+    400030: Village_Hotel_1_fracturepart17
+    400032: Village_Hotel_1_fracturepart17_2
+    400034: Village_Hotel_1_fracturepart18
+    400036: Village_Hotel_1_fracturepart18_2
+    400038: Village_Hotel_1_fracturepart1_2
+    400040: Village_Hotel_1_fracturepart1_3
+    400042: Village_Hotel_1_fracturepart2
+    400044: Village_Hotel_1_fracturepart2_2
+    400046: Village_Hotel_1_fracturepart2_3
+    400048: Village_Hotel_1_fracturepart3
+    400050: Village_Hotel_1_fracturepart3_2
+    400052: Village_Hotel_1_fracturepart4
+    400054: Village_Hotel_1_fracturepart4_2
+    400056: Village_Hotel_1_fracturepart4_3
+    400058: Village_Hotel_1_fracturepart5
+    400060: Village_Hotel_1_fracturepart5_2
+    400062: Village_Hotel_1_fracturepart5_3
+    400064: Village_Hotel_1_fracturepart5_4
+    400066: Village_Hotel_1_fracturepart6
+    400068: Village_Hotel_1_fracturepart6_2
+    400070: Village_Hotel_1_fracturepart7
+    400072: Village_Hotel_1_fracturepart7_2
+    400074: Village_Hotel_1_fracturepart8
+    400076: Village_Hotel_1_fracturepart9
+    400078: Village_Hotel_1_fracturepart9_2
+    2100000: "gulth\xE5ndtak"
+    2100002: No Name
+    2100004: "lysegr\xF8nnd\xF8r"
+    2100006: "r\xF8de rammer"
+    2100008: "m\xF8rkebl\xE5 mini hotell"
+    2100010: "lysebl\xE5 vinduer.002"
+    2100012: hvit skilt_
+    2100014: Material.034
+    2100016: Material.035
+    2300000: Village_Hotel_1_fracturepart1
+    2300002: Village_Hotel_1_fracturepart10
+    2300004: Village_Hotel_1_fracturepart10_2
+    2300006: Village_Hotel_1_fracturepart11
+    2300008: Village_Hotel_1_fracturepart11_2
+    2300010: Village_Hotel_1_fracturepart12
+    2300012: Village_Hotel_1_fracturepart12_2
+    2300014: Village_Hotel_1_fracturepart13
+    2300016: Village_Hotel_1_fracturepart13_2
+    2300018: Village_Hotel_1_fracturepart14
+    2300020: Village_Hotel_1_fracturepart15
+    2300022: Village_Hotel_1_fracturepart15_2
+    2300024: Village_Hotel_1_fracturepart16
+    2300026: Village_Hotel_1_fracturepart16_2
+    2300028: Village_Hotel_1_fracturepart17
+    2300030: Village_Hotel_1_fracturepart17_2
+    2300032: Village_Hotel_1_fracturepart18
+    2300034: Village_Hotel_1_fracturepart18_2
+    2300036: Village_Hotel_1_fracturepart1_2
+    2300038: Village_Hotel_1_fracturepart1_3
+    2300040: Village_Hotel_1_fracturepart2
+    2300042: Village_Hotel_1_fracturepart2_2
+    2300044: Village_Hotel_1_fracturepart2_3
+    2300046: Village_Hotel_1_fracturepart3
+    2300048: Village_Hotel_1_fracturepart3_2
+    2300050: Village_Hotel_1_fracturepart4
+    2300052: Village_Hotel_1_fracturepart4_2
+    2300054: Village_Hotel_1_fracturepart4_3
+    2300056: Village_Hotel_1_fracturepart5
+    2300058: Village_Hotel_1_fracturepart5_2
+    2300060: Village_Hotel_1_fracturepart5_3
+    2300062: Village_Hotel_1_fracturepart5_4
+    2300064: Village_Hotel_1_fracturepart6
+    2300066: Village_Hotel_1_fracturepart6_2
+    2300068: Village_Hotel_1_fracturepart7
+    2300070: Village_Hotel_1_fracturepart7_2
+    2300072: Village_Hotel_1_fracturepart8
+    2300074: Village_Hotel_1_fracturepart9
+    2300076: Village_Hotel_1_fracturepart9_2
+    3300000: Village_Hotel_1_fracturepart1
+    3300002: Village_Hotel_1_fracturepart10
+    3300004: Village_Hotel_1_fracturepart10_2
+    3300006: Village_Hotel_1_fracturepart11
+    3300008: Village_Hotel_1_fracturepart11_2
+    3300010: Village_Hotel_1_fracturepart12
+    3300012: Village_Hotel_1_fracturepart12_2
+    3300014: Village_Hotel_1_fracturepart13
+    3300016: Village_Hotel_1_fracturepart13_2
+    3300018: Village_Hotel_1_fracturepart14
+    3300020: Village_Hotel_1_fracturepart15
+    3300022: Village_Hotel_1_fracturepart15_2
+    3300024: Village_Hotel_1_fracturepart16
+    3300026: Village_Hotel_1_fracturepart16_2
+    3300028: Village_Hotel_1_fracturepart17
+    3300030: Village_Hotel_1_fracturepart17_2
+    3300032: Village_Hotel_1_fracturepart18
+    3300034: Village_Hotel_1_fracturepart18_2
+    3300036: Village_Hotel_1_fracturepart1_2
+    3300038: Village_Hotel_1_fracturepart1_3
+    3300040: Village_Hotel_1_fracturepart2
+    3300042: Village_Hotel_1_fracturepart2_2
+    3300044: Village_Hotel_1_fracturepart2_3
+    3300046: Village_Hotel_1_fracturepart3
+    3300048: Village_Hotel_1_fracturepart3_2
+    3300050: Village_Hotel_1_fracturepart4
+    3300052: Village_Hotel_1_fracturepart4_2
+    3300054: Village_Hotel_1_fracturepart4_3
+    3300056: Village_Hotel_1_fracturepart5
+    3300058: Village_Hotel_1_fracturepart5_2
+    3300060: Village_Hotel_1_fracturepart5_3
+    3300062: Village_Hotel_1_fracturepart5_4
+    3300064: Village_Hotel_1_fracturepart6
+    3300066: Village_Hotel_1_fracturepart6_2
+    3300068: Village_Hotel_1_fracturepart7
+    3300070: Village_Hotel_1_fracturepart7_2
+    3300072: Village_Hotel_1_fracturepart8
+    3300074: Village_Hotel_1_fracturepart9
+    3300076: Village_Hotel_1_fracturepart9_2
+    4300000: Village_Hotel_1_fracturepart4
+    4300002: Village_Hotel_1_fracturepart5
+    4300004: Village_Hotel_1_fracturepart5_2
+    4300006: Village_Hotel_1_fracturepart6
+    4300008: Village_Hotel_1_fracturepart1
+    4300010: Village_Hotel_1_fracturepart1_2
+    4300012: Village_Hotel_1_fracturepart2
+    4300014: Village_Hotel_1_fracturepart2_2
+    4300016: Village_Hotel_1_fracturepart3
+    4300018: Village_Hotel_1_fracturepart4_2
+    4300020: Village_Hotel_1_fracturepart5_3
+    4300022: Village_Hotel_1_fracturepart6_2
+    4300024: Village_Hotel_1_fracturepart7
+    4300026: Village_Hotel_1_fracturepart9
+    4300028: Village_Hotel_1_fracturepart10
+    4300030: Village_Hotel_1_fracturepart11
+    4300032: Village_Hotel_1_fracturepart12
+    4300034: Village_Hotel_1_fracturepart13
+    4300036: Village_Hotel_1_fracturepart14
+    4300038: Village_Hotel_1_fracturepart15
+    4300040: Village_Hotel_1_fracturepart16
+    4300042: Village_Hotel_1_fracturepart17
+    4300044: Village_Hotel_1_fracturepart18
+    4300046: Village_Hotel_1_fracturepart1_3
+    4300048: Village_Hotel_1_fracturepart2_3
+    4300050: Village_Hotel_1_fracturepart3_2
+    4300052: Village_Hotel_1_fracturepart4_3
+    4300054: Village_Hotel_1_fracturepart5_4
+    4300056: Village_Hotel_1_fracturepart7_2
+    4300058: Village_Hotel_1_fracturepart8
+    4300060: Village_Hotel_1_fracturepart9_2
+    4300062: Village_Hotel_1_fracturepart10_2
+    4300064: Village_Hotel_1_fracturepart11_2
+    4300066: Village_Hotel_1_fracturepart12_2
+    4300068: Village_Hotel_1_fracturepart13_2
+    4300070: Village_Hotel_1_fracturepart15_2
+    4300072: Village_Hotel_1_fracturepart16_2
+    4300074: Village_Hotel_1_fracturepart17_2
+    4300076: Village_Hotel_1_fracturepart18_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.034
+    second: {fileID: 2100000, guid: d3e453ce8b3071f45b4e5e2063cc27a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.035
+    second: {fileID: 2100000, guid: d3e453ce8b3071f45b4e5e2063cc27a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b0ee211b246cb374eaee23c6d3fd4d81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "gulth\xE5ndtak"
+    second: {fileID: 2100000, guid: 0bc2b8e44ce06c149a439897e50ebeb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hvit skilt_
+    second: {fileID: 2100000, guid: ecf29aadc9dced240a5eef01a3c482df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "lysebl\xE5 vinduer.002"
+    second: {fileID: 2100000, guid: c95e28859490a8f438b3198d7e86d7fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "lysegr\xF8nnd\xF8r"
+    second: {fileID: 2100000, guid: ecf29aadc9dced240a5eef01a3c482df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "m\xF8rkebl\xE5 mini hotell"
+    second: {fileID: 2100000, guid: 5130fb895d9ea3c478cf60a99fd56928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "r\xF8de rammer"
+    second: {fileID: 2100000, guid: ecf29aadc9dced240a5eef01a3c482df, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

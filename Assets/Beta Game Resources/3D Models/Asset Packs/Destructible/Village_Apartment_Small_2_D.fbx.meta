@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: d6c22f61c2ed3420aa39e53cead9f2a9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube_001
+    100002: Cube_002
+    100004: Cube_fracturepart1
+    100006: Cube_fracturepart10
+    100008: Cube_fracturepart11
+    100010: Cube_fracturepart11_2
+    100012: Cube_fracturepart11_3
+    100014: Cube_fracturepart12
+    100016: Cube_fracturepart13
+    100018: Cube_fracturepart13_2
+    100020: Cube_fracturepart13_3
+    100022: Cube_fracturepart14
+    100024: Cube_fracturepart15
+    100026: Cube_fracturepart16
+    100028: Cube_fracturepart17
+    100030: Cube_fracturepart18
+    100032: Cube_fracturepart19
+    100034: Cube_fracturepart19_2
+    100036: Cube_fracturepart2
+    100038: Cube_fracturepart20
+    100040: Cube_fracturepart3
+    100042: Cube_fracturepart4
+    100044: Cube_fracturepart4_2
+    100046: Cube_fracturepart5
+    100048: Cube_fracturepart6
+    100050: Cube_fracturepart7
+    100052: Cube_fracturepart8
+    100054: Cube_fracturepart8_2
+    100056: Cube_fracturepart8_3
+    100058: Cube_fracturepart9
+    100060: //RootNode
+    400000: Cube_001
+    400002: Cube_002
+    400004: Cube_fracturepart1
+    400006: Cube_fracturepart10
+    400008: Cube_fracturepart11
+    400010: Cube_fracturepart11_2
+    400012: Cube_fracturepart11_3
+    400014: Cube_fracturepart12
+    400016: Cube_fracturepart13
+    400018: Cube_fracturepart13_2
+    400020: Cube_fracturepart13_3
+    400022: Cube_fracturepart14
+    400024: Cube_fracturepart15
+    400026: Cube_fracturepart16
+    400028: Cube_fracturepart17
+    400030: Cube_fracturepart18
+    400032: Cube_fracturepart19
+    400034: Cube_fracturepart19_2
+    400036: Cube_fracturepart2
+    400038: Cube_fracturepart20
+    400040: Cube_fracturepart3
+    400042: Cube_fracturepart4
+    400044: Cube_fracturepart4_2
+    400046: Cube_fracturepart5
+    400048: Cube_fracturepart6
+    400050: Cube_fracturepart7
+    400052: Cube_fracturepart8
+    400054: Cube_fracturepart8_2
+    400056: Cube_fracturepart8_3
+    400058: Cube_fracturepart9
+    400060: //RootNode
+    2100000: "gr\xE5 hank_"
+    2100002: "hvit d\xF8r"
+    2100004: Material
+    2100006: "r\xF8dt hus_"
+    2100008: "lysebl\xE5 vindu"
+    2100010: No Name
+    2100012: gule karmer
+    2100014: oransj tak_
+    2300000: Cube_001
+    2300002: Cube_002
+    2300004: Cube_fracturepart1
+    2300006: Cube_fracturepart10
+    2300008: Cube_fracturepart11
+    2300010: Cube_fracturepart11_2
+    2300012: Cube_fracturepart11_3
+    2300014: Cube_fracturepart12
+    2300016: Cube_fracturepart13
+    2300018: Cube_fracturepart13_2
+    2300020: Cube_fracturepart13_3
+    2300022: Cube_fracturepart14
+    2300024: Cube_fracturepart15
+    2300026: Cube_fracturepart16
+    2300028: Cube_fracturepart17
+    2300030: Cube_fracturepart18
+    2300032: Cube_fracturepart19
+    2300034: Cube_fracturepart19_2
+    2300036: Cube_fracturepart2
+    2300038: Cube_fracturepart20
+    2300040: Cube_fracturepart3
+    2300042: Cube_fracturepart4
+    2300044: Cube_fracturepart4_2
+    2300046: Cube_fracturepart5
+    2300048: Cube_fracturepart6
+    2300050: Cube_fracturepart7
+    2300052: Cube_fracturepart8
+    2300054: Cube_fracturepart8_2
+    2300056: Cube_fracturepart8_3
+    2300058: Cube_fracturepart9
+    3300000: Cube_001
+    3300002: Cube_002
+    3300004: Cube_fracturepart1
+    3300006: Cube_fracturepart10
+    3300008: Cube_fracturepart11
+    3300010: Cube_fracturepart11_2
+    3300012: Cube_fracturepart11_3
+    3300014: Cube_fracturepart12
+    3300016: Cube_fracturepart13
+    3300018: Cube_fracturepart13_2
+    3300020: Cube_fracturepart13_3
+    3300022: Cube_fracturepart14
+    3300024: Cube_fracturepart15
+    3300026: Cube_fracturepart16
+    3300028: Cube_fracturepart17
+    3300030: Cube_fracturepart18
+    3300032: Cube_fracturepart19
+    3300034: Cube_fracturepart19_2
+    3300036: Cube_fracturepart2
+    3300038: Cube_fracturepart20
+    3300040: Cube_fracturepart3
+    3300042: Cube_fracturepart4
+    3300044: Cube_fracturepart4_2
+    3300046: Cube_fracturepart5
+    3300048: Cube_fracturepart6
+    3300050: Cube_fracturepart7
+    3300052: Cube_fracturepart8
+    3300054: Cube_fracturepart8_2
+    3300056: Cube_fracturepart8_3
+    3300058: Cube_fracturepart9
+    4300000: Cube_001
+    4300002: Cube_002
+    4300004: Cube_fracturepart1
+    4300006: Cube_fracturepart2
+    4300008: Cube_fracturepart3
+    4300010: Cube_fracturepart4
+    4300012: Cube_fracturepart4_2
+    4300014: Cube_fracturepart5
+    4300016: Cube_fracturepart6
+    4300018: Cube_fracturepart7
+    4300020: Cube_fracturepart8
+    4300022: Cube_fracturepart8_2
+    4300024: Cube_fracturepart8_3
+    4300026: Cube_fracturepart9
+    4300028: Cube_fracturepart10
+    4300030: Cube_fracturepart11
+    4300032: Cube_fracturepart11_2
+    4300034: Cube_fracturepart11_3
+    4300036: Cube_fracturepart12
+    4300038: Cube_fracturepart13
+    4300040: Cube_fracturepart13_2
+    4300042: Cube_fracturepart13_3
+    4300044: Cube_fracturepart14
+    4300046: Cube_fracturepart15
+    4300048: Cube_fracturepart16
+    4300050: Cube_fracturepart17
+    4300052: Cube_fracturepart18
+    4300054: Cube_fracturepart19
+    4300056: Cube_fracturepart19_2
+    4300058: Cube_fracturepart20
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

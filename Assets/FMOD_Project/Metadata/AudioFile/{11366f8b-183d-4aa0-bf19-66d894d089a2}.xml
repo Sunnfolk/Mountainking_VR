@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{11366f8b-183d-4aa0-bf19-66d894d089a2}">
+        <property name="assetPath">
+            <value>Player/Material Sounds/Metallspis 17.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.53126984126984123</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{89b79d82-0ccb-46cb-ba93-99bfc5311473}</destination>
+        </relationship>
+    </object>
+</objects>

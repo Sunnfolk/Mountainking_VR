@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{682c23cd-a72a-4b65-abde-fc988ae1e642}">
+        <property name="color">
+            <value>Blue</value>
+        </property>
+        <property name="name">
+            <value>Narration</value>
+        </property>
+        <property name="maxInstances">
+            <value>1</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{e09d834e-2a6d-4451-b980-e264aa30fbb9}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{02841ad4-ac12-4462-bc1c-506363ca1b08}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{16672a66-abe4-4270-a9e0-6f9cc8c7698d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{e09d834e-2a6d-4451-b980-e264aa30fbb9}">
+        <relationship name="effects">
+            <destination>{33b0e6c4-e3f6-46e9-ac8f-b1ff625ac3fc}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{02841ad4-ac12-4462-bc1c-506363ca1b08}">
+        <property name="overridingOutputFormat">
+            <value>1</value>
+        </property>
+        <property name="outputFormatOverridden">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{33b0e6c4-e3f6-46e9-ac8f-b1ff625ac3fc}"/>
+</objects>

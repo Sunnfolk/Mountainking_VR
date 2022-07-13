@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{ddcf2eec-5961-42b8-bdbe-a390857deee7}">
+        <property name="assetPath">
+            <value>Player/Material Sounds/Plantespis 11.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.7782539682539682</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{89b79d82-0ccb-46cb-ba93-99bfc5311473}</destination>
+        </relationship>
+    </object>
+</objects>

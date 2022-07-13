@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{423e0a1a-ef5f-4715-ab0d-243d41543708}">
+        <property name="name">
+            <value>Effect Volume</value>
+        </property>
+        <relationship name="folder">
+            <destination>{b6c7ccc4-e5b5-4c6e-bdf9-9f53cce8f2a3}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{baf198f7-ab37-4f32-9d1d-def95c8921ca}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{baf198f7-ab37-4f32-9d1d-def95c8921ca}">
+        <property name="maximum">
+            <value>100</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,1537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.3.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_4;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_4;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>/Users/mark/Documents/Skole/Unity3D/StudentProjects/MountainKingVR_2.0/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/mark/Documents/Skole/Unity3D/StudentProjects/MountainKingVR_2.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/mark/Documents/Skole/Unity3D/StudentProjects/MountainKingVR_2.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/mark/Documents/Skole/Unity3D/StudentProjects/MountainKingVR_2.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>/Users/mark/Documents/Skole/Unity3D/StudentProjects/MountainKingVR_2.0/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>/Applications/Unity/Hub/Editor/2018.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\AssemblyInfo.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Bootstrap.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\CollabAnalytics.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\CollabHistoryWindow.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\CollabToolbarButton.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\CollabToolbarWindow.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Presenters\CollabHistoryPresenter.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\BuildStatusButton.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\CollabHistoryDropDown.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\CollabHistoryDropDownItem.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\CollabHistoryItem.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\CollabHistoryItemFactory.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\CollabHistoryRevisionLine.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\HistoryProgressSpinner.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\ICollabHistoryItemFactory.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\PagedListView.cs" />
+    <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\StatusView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Beta Game Resources\Shaders\CloudShader.shader" />
+    <None Include="Assets\Beta Game Resources\Shaders\RiverShader.shader" />
+    <None Include="Assets\Beta Game Resources\Shaders\Wave.shader" />
+    <None Include="Assets\Beta Game Resources\Shaders\Wave2.shader" />
+    <None Include="Assets\FMOD_Project\Metadata\Asset\{3608e2a2-238f-4f5f-b495-e600dba8ab75}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Asset\{69f666ff-f62a-49ab-98bb-ace586a9c661}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Asset\{7088bb7c-a623-4b0e-a70b-7363fe4393aa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Asset\{89b79d82-0ccb-46cb-ba93-99bfc5311473}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Asset\{ea4f0ef6-c8d1-4a8e-84d6-9e57d1e413b7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{00111f12-2160-4d63-a2ac-2142bf028ee5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{001ac75f-2f46-4bec-997e-64a911ae5533}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{014a66bc-51f5-4a71-8537-46afa92ddb4d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{01cf426d-4c0d-4f75-ba71-7b298396e997}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{02427bb2-ae6e-4ac2-936f-a0b102af62ec}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0257dcf5-f5b7-4b59-b793-3e25573527db}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0286b831-6911-4589-bed2-e1f0f0dc2a37}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{02da1fba-bb99-4591-ad48-3b61a5ba456d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{03d334da-01db-44b9-8973-495a1c788513}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{047340e4-a5ac-4526-9950-98c72165b448}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{04f814da-a9b4-4f32-8ca1-586e0893af1f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0518d41a-06a3-4a91-991a-a3ddb5affaf1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{057721e8-3ca6-47d2-9efd-aa0d34e8b9b5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{05f686fb-adf3-4fa6-b86f-c0fe28696de1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0652584a-a41e-4f15-a5a1-8c612a10a3df}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{066fb7e0-9776-44a0-95d1-39caa3a060de}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{06c28c7e-55fd-46eb-ac89-fdacee29b589}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{075c59e0-c414-4b2b-a594-d484753db2ac}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{07673e2d-a194-450a-96fe-d207ae40c4dc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{07acce61-a038-4952-aa68-8d4915e56338}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{07d57b38-bc6f-44e1-b4a2-f23b4a1737ca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{07dcc49e-ba1c-4470-ae3f-9cb38996bdd5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{088a02b2-5a8d-4177-ab95-440e7c89bcc4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{08b0a098-36de-44d5-a0df-6b614460596c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{09296f08-9cbb-48c8-81ac-84b9d8999e8a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0a939554-8d2c-4dc7-ae7d-96963dfe1768}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0ae3efba-6d89-4435-89fe-2ca85843c0e5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0b94c270-dce7-40d8-a57a-7877d6e85f03}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0ca8b4c2-34d2-4d30-8194-487335d5486d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0ce852d2-9d64-48ff-b8f1-661120757ce2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0dc2fcf3-1381-4c63-932a-0a43a7b532c9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0dd79930-16a7-4a4d-99f9-04e5e6af567c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{0f7cf23b-8c5a-4d19-b593-35086b3be9ae}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{11366f8b-183d-4aa0-bf19-66d894d089a2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{11419420-b3a9-4672-9553-c65c905366b2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{115126d4-5b31-4291-a991-256566d8a0c1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{118e5474-5319-4cbf-8752-e2edbe019069}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{11ab9ae8-733f-47e6-ab36-72a102aa1804}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{11e833c3-12d8-454e-ae1f-82ef8258ca29}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{12a8bbdf-2d5e-45d1-a856-e909f0c55d12}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{12f6109f-3caf-4c6e-a6cd-60bac65f3d84}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{13226582-44fb-4807-a224-d13c121d5d05}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{132695b7-f00e-40fe-ac4d-c38e7d5c3c87}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{139755b0-3396-4104-ac90-d1cdedd9c31e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1537ff76-d8ad-4f56-ae6b-96cd65427143}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{15a5a186-ccd4-41fa-8d12-25a6dc38fad8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{15cc090f-d419-4805-b08b-4f653532ae55}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{15dea987-65fa-4526-9779-db86f2c8d860}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{165aafd5-3ea2-4b5a-a2d2-0df6ba1a6570}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{16868f74-d2fe-4eb4-af63-195110d51740}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1705512c-f5c2-41d6-b9fd-c8ba57c194e7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{17362067-7a9d-451e-abff-c4cc6e6f1775}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1780b8dd-fd2e-45b7-ab7a-610d1186a667}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{179d775c-6afe-4036-8831-aaf90420a787}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{17d5a8a0-bdcd-426a-92cd-400227b970f6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1908643d-ffc1-4748-b585-541c2147089f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{19ec8d0c-fb5e-4ff3-a8a1-c6a7af1ceea4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1a1b807c-3e5c-4794-b919-55cd497fc77f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1a46f240-e2e2-4f4f-bff2-37591e5a2761}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1ae327e6-e9a7-4512-b926-ee58563ce4de}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1bc50d33-7a17-44da-88ff-bad09e90e37e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1bca74a7-e6e8-45bc-a251-275907ff8027}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1c200c60-01fd-40b4-9dea-8be7a9913789}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1c284f6b-dc24-42b2-9cdb-86d57ff6dedf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1d9a540b-1775-46ec-8a85-9dd1423c3df6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1dcc65e7-08c0-4b76-a333-d5f686d0fad2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1e1077ed-8561-4849-91e6-186734e1cefb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1ec443bd-10f3-4a7a-987e-b779afdab7fb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1f46b274-9385-4c42-9179-14376473f50c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1f9b022f-d8de-404f-99b5-4236da2ad24e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{1fff6a47-fe04-43da-8ed5-dee15a80f9b9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2173ec44-0590-4e9a-bd8c-8997827a6f66}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{221f6abf-3bd3-402f-af6c-0a67e9d76b83}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{223a0da2-5439-44e7-bb2c-60ebf5c06258}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{22644e96-c0e8-4582-9583-4ba71be6f8a2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2275e947-2496-4047-acba-78b12d5eb32d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{22b5e044-b09c-4cfa-b562-09679510b39e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{22bb3a37-2df7-4ce0-b9a8-35835e8462c8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{22e3baf1-75c4-4975-a4ce-a62e77cbd38d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{22fe6a91-632f-4b88-97bb-986d716a7300}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{232856a8-ff8c-453f-a4e2-15fc95151ce5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{234ef373-4d90-4886-a036-5f38a18fa9fd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2368d8ae-d81b-43cf-bec3-a11989b0abc8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{23800ca2-848c-4b7d-92c3-f54d94de4701}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{23959292-2de2-42ee-8783-961ad2148d03}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{24ad52c0-83e7-42a5-9e0f-f6263c7d589a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2531adfd-5bd2-41ea-8a13-a58a1e69600e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{25f19401-e11d-4c32-866d-18cea0bb0892}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{25f4b1e9-b637-43e3-9e6b-e53e5c7077c4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{261504e9-bcd7-47cd-9dd7-95b96be493b7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{268f6853-0382-41d1-8110-3b5ce2575f01}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{26c5059c-869f-4575-95b1-a78a0e73a8b2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{26d5f31f-f9c2-42d1-be53-72be6792bfa6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{26ee90dd-2df3-4134-8a83-1c17389aa2c0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{26fac17e-3e5c-4ad9-9217-9ad954c1e29a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{271223d0-fba2-440b-9112-a27bdf23b71b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{27baf3e9-b6e2-4740-9068-3f78d0ae2e13}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{27c08625-fe8e-4e00-bca0-7814389f8b29}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{27dea528-3cc5-4ba5-8a13-4bc5a2a67a54}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2910f3ef-01d5-40aa-939d-0906cc3c3a74}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{294c21f6-ab70-43eb-8ebb-7a4352565061}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{299c465f-1846-4368-94ff-83d39510d439}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{29c0b5b9-5ef1-4d74-a547-2d5ae3374337}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{29ca7863-322b-4711-89fa-ca3d632d0fa2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{29d16666-4b3d-4fea-b32f-3b51d4a27b3a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2a7998ec-45be-49bb-b942-5db18492f775}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2b45ca9e-f04a-40b9-a9e6-a70b6233cf7d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2c29b17a-7a90-48f1-9c2f-6e553bb8c570}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2c2dfe88-7c00-44a4-9658-fbb7590dba6f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2c83f266-290b-4fbe-8e3d-4d8c991534be}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2c9db2bd-f9aa-4f57-830c-15e834241bcb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2d20ec63-4f07-4de9-8282-0f6052471649}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2d5bda56-c30b-4cc9-a3e2-f4f224b6abce}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2ddacd73-64f7-4ac1-9dd7-1fbf82b8fc5a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2e34a158-65ea-4512-bca2-b367ef77ccd8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2ee97630-2e64-4597-b0bc-e728653748c2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2f04861d-ebbc-451c-a1a0-389d42a03b5b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{2f104ddb-2c28-465b-b599-d14276493f49}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3006fd00-00d5-475b-b495-f7bcad0aa75e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{31d05b77-dfad-4e0e-89db-e2effa85c5e4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{31f70d8f-8b04-4bc8-b140-e287e0db932b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{330710ea-13ba-4da1-9b01-de5659a6b006}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{33a1a021-b926-41cf-8c11-697e48560af2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{340e7d1a-c795-469c-adb0-0870e07d6c95}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{34301760-da1e-44c3-91b5-011b2550143c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{34536c5c-e7f4-4820-908d-26f5bba5b0ae}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{34642544-9d4a-4b68-bd01-af59670dbba4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{359fa7ef-93a7-473d-8d56-0df5a823268d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{35c2d127-71b1-44ed-8ac5-9e02504ff026}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{36fa6d26-7ca4-407c-b71e-5ab8aebc4596}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{36ffab75-d52b-445b-b142-9b072613711b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{37a89e7b-564a-4ef0-9517-31f39fa0a2a8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{37b1460f-1566-440a-8408-3a376b398037}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{37e7bf0f-f653-4230-be55-f61cc596c3e3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{38336314-61a9-4779-99b0-017f98a7f5c3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{38547f2e-d852-4225-8ef7-681b000d45b7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3874ed7f-4c27-44d3-b0ba-b083f92b6dfb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{395a2e7a-ad18-4fd0-bb91-bb9587f14d03}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{398448b8-ea86-4368-b292-6d0df2e370b4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3998c1cf-8954-4fbc-803b-71f030858f6c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3a46b294-7d50-4d91-9ebd-d82b2d023a11}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3aa3bac7-2abe-42bb-bb51-8c4f2bc96b61}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3b376372-4295-401f-a685-ad501e0d9a6c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3bae13f4-23aa-47cc-a6eb-b09c76fd00d0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3bbd6d40-9065-465e-92da-068c4de7c25a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3bce1055-6255-4f1e-869f-96545bf2cb7e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3c2803a6-7b2b-4c78-bf8c-002845faef7d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3c7a824d-3678-42e0-80ba-76558317dadc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3d0b7a5c-b610-445a-a185-35ad6949e779}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3d39dd84-8886-453a-a50c-ea85645e13cd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3d4cf1ae-60e9-464b-a138-d99683f03744}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3ebb7d47-2874-481f-abd8-f867cd1cd1d2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3f3e5f13-bfde-4039-b57c-0cc61f75d1ba}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{3fbe7a01-6e3b-4b8f-8a89-c4ec8f8f52d1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4060424e-ee47-4b75-a06c-35bb1c327be7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{41027a40-2d79-4c1b-b85f-8e5d4d493845}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4145ee67-9b4b-4652-8216-3b6687f47b0d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{419634d8-a88a-46ef-810a-807e7ffec23e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4198b576-812c-4a91-baa1-90ea07fde0e7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{41ab3849-438c-4e3e-ba89-11611fc9b8ec}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4221127d-82b8-40e0-aabf-aaed42f3d7f4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{42550496-c0bf-4d07-899a-320e9cf883f2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4267b7bd-8278-4300-9a71-c3d2f90d2285}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{42866ade-5c39-4de4-b827-b32460db623a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{42ff7c36-a650-4a6a-bda3-0574e822bba2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4335aded-6fc8-473c-8eb1-f892c7ae010f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{43756998-2fd7-42f6-bb4b-0449dc219991}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4398cade-d410-4e82-b96d-45f391f3ca2d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{44137166-0e04-4227-ba80-9ec4bbcb652d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{44402b16-ba97-42e5-8a49-343970cee9d9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{44707804-9eb2-4953-b58d-d93ec01aa63b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{44c141dc-85e4-4a27-b43b-8fe9df90f612}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{44ed1017-0910-4887-aead-8e565ff8742f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{45014e72-02b2-4344-9e33-217a78dd4a12}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{451144b4-54eb-49b9-bfff-efb06604e3ca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{45ed5c3d-20d1-4706-91a1-794edc3c00c2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{45fa2298-e6f6-4482-be77-84cec2158886}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{46189843-9308-471d-a7e3-adad77eb69ce}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{463ba957-ef7e-4494-b02b-447de6da693f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4693466f-807d-4ddc-934c-ae7e339418b8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{47e222a3-e0ca-4818-bed2-c8aabac75e34}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{47fe0706-c040-4e8e-8591-c28b62c31aff}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{48bf02f8-8ac0-40b3-97eb-9dc80fa88b08}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{48c91e2d-a29b-43e7-9432-94d9fe4e9e34}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{491d15e1-89b0-4d68-8752-7726e0bc1056}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4a7f270c-23b7-4b52-bf30-e3df7af1c870}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4b6e5c4b-533d-4e3c-af99-a1dff2d21a24}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4b73c5dc-2b32-4bc5-928c-8c07bc9e5cb5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4bc7aa2c-a09a-4a18-9109-a185606ce5fa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4c0e6de5-0b59-4a71-af6d-ffb050f260c5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4c1f0e57-643f-4bf8-98d3-0836f567373d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4c666275-b8c0-4791-940d-62c719c0319d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4ca955ad-160c-434b-be85-7de24320541f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4cab05f2-e660-4eb3-b6e6-5854745a4b20}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4d0d3aa8-642d-47fc-bddc-66d385761706}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4d584d48-71c8-4f44-9638-24381d792acb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4deeb1f0-d526-45c6-9ab0-8aa9b322f216}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4e512f42-452a-4883-9f0f-e59b4f377c0d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4e7d98ac-33f4-4f58-a918-a74380dc7411}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4eb34168-632d-475b-a1c1-cde99a7f3a1e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4f31bd48-0bb0-4776-9461-f6228e60d58e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{4f5be5c8-9128-4854-8d6f-5db69be12332}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{52056a38-70b3-48f5-ae08-ba2b951a06e8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{527b7eb4-1c76-4e64-8fa9-94d25fbe26ee}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5297cb5e-cca9-4df4-8c02-e2de67a94ea6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{52af3cce-b1de-4e52-928a-05b196a95cb3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{53266fa8-b805-48e3-9db2-35d30fed07dc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{53484886-0517-4653-9777-484562a948c3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{537aeba4-6eb0-416f-b8d8-6d035373a047}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{53c34052-5260-4766-8c13-49703fecdf8b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{54603406-4728-49f3-89e0-1e71fb4a327a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{54edd464-8c3f-4292-b811-d140b2da646c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{54f711e0-0ac4-45ab-a6f6-7788c102694b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5571267b-f926-4d1d-8b17-d56b500b178c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{55ab3990-dd2f-4411-a62b-43241840d7ee}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{55beae83-39d4-4c2e-bf8f-d5f0752dde10}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{55c7f2cd-e5b8-4c48-8377-c93a4076657c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{565304b1-8765-489e-a412-c752f5c4497f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{57020af7-de83-4857-9588-a96a8abb9665}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{57c8446d-1fed-49b2-b0c0-2ca4ce3953a2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{580c1532-221a-42be-add6-14bd2b3bac3e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5882b358-66be-4452-83d3-20a7328353e2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{59ebcf6e-3372-42a8-91b8-b1557f5f5fe1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{59fe861e-2ad7-4305-ac5f-8332dfbda23a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5a1b9d00-533e-4354-8623-43dd1cc467d6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5a5f710d-ad2c-47aa-a521-65c032f8c5a6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5a799327-bb00-4a17-9b80-13ea0b6bd41d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5b57099e-5d57-4b20-8b7b-e47b62cfda24}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5bdb11bc-cdf5-4a88-a986-db0a86f875b1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5c9a2c28-40c2-4fd8-be67-5525fd899ea3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5d32a1bc-36c6-439b-8a14-c9abdc3e48e0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5e49d3b2-5623-4922-87b6-1b58f9d4370e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5f78f10d-5fa4-4aea-8485-3790c4d0db76}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5f919217-9d84-4b06-8f2a-50b2f8839a2e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5f9b3cb5-4b25-4083-ac9e-8bc4c4b124b0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{5fb0229e-e29a-4091-80a4-5c6a225e20ca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{605f36c6-b895-4495-bf55-a95eaf168e69}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6087701f-7c03-4fc6-8efa-1e600403131a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{61bfcb53-8cf8-4411-9a92-3d8d5de0b57f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{63ceeee7-4d26-403b-b4e5-fca10d86a709}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{652e5a17-f1c4-4480-8d58-307fc09be09d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{658791cb-8666-4930-863e-e806c39fb74b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{65b29b01-eb22-4197-ab4f-1e9141bfc666}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{65e694fb-a325-4136-9dd6-30ef6e51f84d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{66659a8e-8516-441d-9d61-4f91feb30749}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{66c32cd7-cfec-434b-aab9-e712ab02c15d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6713fe0a-45ea-4f04-aaff-fe321f1dc128}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{675b3357-f71b-41c3-b022-13dbf50530b3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6783aada-d066-4dbb-86a8-5d856b0cf340}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{67a3abe1-269a-4c9e-ac97-55f4fa7bef33}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{67b62cbc-4215-4d16-8e8c-d0cc5269f1d0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{68def97f-4b23-4939-96dc-ccb18c20b4da}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{69075b25-70ed-4293-94a3-b74346710074}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6922f109-c65a-462b-b0bc-34d1816a3863}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{69a88a0b-e7f2-4a66-a2f2-4ed67d5fbf57}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{69c7b17d-9387-4af3-ba13-fc5d0118c749}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6a398c86-f763-47a5-84b6-a051e43c3582}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6a777528-6ff8-4395-aa92-6ba0818d3ded}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6afc5f96-e20b-440f-a9e7-a5d1a4166eff}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6b50f7e4-0172-4e11-9ef9-0e4e968a6158}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6c75faf7-d0c8-4a2a-936c-17c6d941b8b7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6da82a73-bb2d-47c9-9266-90bef3d518c6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6e376e37-b490-4915-8dd3-651f7f8f5906}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6e80a7a9-809e-489f-a133-866a9e2d9355}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6f0ae3c4-ff48-4104-afb6-b6aa410e2733}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6f88afeb-a3ab-4827-bf0d-4c1779e558d5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{6fcd6be4-e57f-48c7-aec8-e552314ff29d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{706f35b8-ae72-4657-b471-f35858f82950}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{716579a3-0121-4a6f-b51b-e62747d27dc1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7273d129-16ab-4165-a3db-4851b111285e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{72d32649-1a79-40b7-90bb-3ba724d0e367}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{72e35445-2702-4931-a3eb-2bae655100e0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{73c22803-48e3-4f33-81d8-1ed18174bbef}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{73ec1bdd-bee5-4a0b-a0b4-e95d35727a3b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7411c1cc-647c-4c1a-994a-82d665c8c7e0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{74137ae6-4802-4310-87e2-98c19365a4c1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{742a3d15-9b4e-472d-aa13-f1b39b58d04a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{745a6d84-71db-483d-9364-6083efd3a2eb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7481708c-4ead-4a56-9502-6ee2b2c4f0b7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{748f1a79-81ea-48c1-8de0-4a5638ca6708}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{75238590-2afa-47c5-8767-e11e4019ad5c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{755056cb-132c-4948-9d77-be0f5c2b16b2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{75874e7f-f8c4-4ea6-b3f0-660010b773b8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7593df23-d585-4767-b4a1-2f72aaa59470}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{765a879f-cffa-4cb2-ba67-6e6f6caf17b9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{774b77c7-7add-4b72-8ac3-6f1aa4e197f6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7784fd49-1687-4d49-89ce-60b7b267e307}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{77b0737e-6767-4c63-b37f-d559ae36733b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{780d7640-4ba2-4e7e-9470-022b6443a3e0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{787d00f1-358b-4a58-a181-8e401385ccf4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{78c55720-d696-4b21-9748-1ffe171546c7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{78d47a57-d64d-40c7-9a0a-bac3b4f339c5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7935825c-76c6-4a9c-aaeb-f354b1658eca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{794d84cc-f35b-4caf-8b23-3b11cbb870af}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{79eac265-22b6-46c3-9396-755ca68cceeb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{79f16f53-8c40-4ab3-aa5d-92f4906bc39d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7a5394a6-8abe-400d-9a85-3181f2dae4be}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7ad6733a-82e1-473a-97a1-dda35549c22e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7b23ddb6-bf91-40fb-b1ac-bc626a31e0b0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7b3ae991-d4ec-4c8f-a8d1-f177896e26cd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7bed2c96-7cbd-438a-88a2-52063a6ada0c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7c010722-418f-47f0-8ac1-1919220e35ca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7c5556ca-7bf2-46ae-b549-cfaa28c7ced9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7ca867ca-76d7-4464-88a4-b32671ba9a3c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7df91976-39cf-411f-b06a-0b2a9dee036f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{7f13676a-47f3-411a-a5ea-0402c3cdea08}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8009eeb1-05e5-4db1-a58c-6de33c723113}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{80e8ffc2-d2f1-415d-9e4c-7d7abf1c19f2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{81bd11c7-1d3f-48a2-93a5-3f66625885e7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{81cce9d4-9aba-4345-a989-b92f0f876727}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{821837a5-8bb9-4288-a77f-b0941180e669}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{823fb9df-55be-4a30-9ab4-f269f07f8e5c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{82d74993-040a-4493-9b9c-b91c561009f8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{83935d93-e073-4c33-ad91-13829f0e887a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{848e8564-9093-4091-8ee0-87d2225b9fac}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{852130d5-028e-494a-a76b-46d79e242150}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{858f0051-90db-4981-9abf-de2cd83e36b6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{85ff4d16-cdc0-46ef-b97c-bdc02910dfdd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8648e682-e577-4c82-a70a-e5f05c3fa875}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{86b8f6e8-66b2-4c8b-92fb-116d9165fa95}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{86cb8883-f5ac-4a73-a719-7b597fa4a4eb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{877c4119-9f53-4157-a82e-a346167acf23}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8814ddda-09ca-43ba-b549-5c3669728ab6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{881af880-752c-40a9-a430-4443854d914c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{889aea7e-512a-4669-95a1-32cd43198bd2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{88bbfeb3-2631-4fe3-ac6d-8f0946b2ef19}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{88c7895b-8f6a-4679-bdb7-8883453a05c4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{895f9bd5-dbe0-43b9-a6a1-c0ddf57938c1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8997c5ad-a237-44fc-8ce8-a440053ea248}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{89b68cef-d40d-4e57-aa0f-6c7efcfcb3e9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{89c109ba-a531-4b76-9c34-32e7f67e4a53}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8a56477a-05f5-42b5-9a0c-7854073504b3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8a580ce2-26d3-433b-b908-073a407e427d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8acb56a6-ac5e-411d-8bcd-124b57a90328}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8b25981e-1778-45e8-b923-e47693912f9f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8b4786bd-e011-43b3-8f70-75c3f07c1035}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8c2e23b2-5aeb-42d6-b012-0d48f6329af1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8c50c1fb-9442-4e3c-923b-194e07459638}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8c7a3d4b-5469-4c64-8a27-d5c011fb741c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8cf3a6bc-72f4-4c75-8b46-ee84786ad72e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8d4029c6-8557-487a-8a14-386c578f7485}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8d43716e-37b2-4650-ba79-b0a3adbf7342}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8d7019ec-e8cc-4dce-8b3f-5e1b3be8aa8a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8dd26ac4-6ed1-48cb-a48d-21fb78b1d7f7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8df839d7-ccce-4e05-83c3-8f4febf1b990}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8e3f7849-eb1e-43ed-94b0-f12648a03a3b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8ed2a5b0-004c-4fc0-9f38-1bdf5dcd16dd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8efd6c50-4cc0-400c-b502-e84a5f1cc67a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{8fa9898e-e71d-4b3b-b2fd-3cf15d894561}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{90385bf7-9b55-4cf6-a219-8731b69e91b6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{909f413f-2298-4438-81a1-31e6384ee2a1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{90d4baa8-de48-47a0-9273-935cd66a016c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{912096fe-557b-4999-9193-5ceb631ec7ad}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{91fdd129-dce6-42f0-abf0-2fd3b73a3a47}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{92e25b97-4112-4944-b4d5-385ede9a3eb0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{930dde60-08c9-49b6-bb3c-06179267c61e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9358718f-42a3-4b95-bdce-ce6ba2313fe3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{941a7131-770c-4d94-994a-8a47d725eea3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{94769725-9f9a-4c9a-902c-40977be2875d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9548301f-256d-414a-b16e-c8f517c0ff97}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{95a9e207-8c9e-4192-b32c-eb4a76147602}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{95e1ea22-5ad2-4688-9eb7-9275cb907aab}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9631b692-8758-4250-bfea-a320f3f40bdf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{970cd0db-0bfe-417c-b196-0f3722ee8b78}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{976c8c93-5c55-46e7-b3e4-ad135b087bbe}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{977c93b7-f14f-4aaa-a71f-ff3e869328c9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{97a7feee-7786-487e-bcc6-6f8663f199dc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{97c301d1-0ef3-4d77-bc53-aca2f93aa16b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9881153e-1baa-434c-8553-b99075f02b11}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{98970ba6-44a0-4b9b-806a-2b421f18d5a9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{98b16720-5ed3-496c-9475-67ecfe0811d0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{98da1856-c564-4170-88e7-441e34d3cfca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{994a9019-f16e-41ef-8e3b-59ffc65ca093}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{998f1430-05f3-4037-8253-ad32ca4342fc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9aa194c3-0e06-40d1-bcff-ff6ddf41b479}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9ab7382f-290d-49ae-9491-07bfba8e50ef}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9b5bef10-9e14-4b0d-920b-771966bb60f8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9b7ab1f3-0dcb-4b7c-931b-fbe6ce10a914}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9bc52dae-9526-43c7-b443-33333f93d509}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9bfd8a5e-723b-4ee7-aaa0-4164d94f5f66}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9c153387-4d17-456f-9dc3-b2ebe4051eb9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9ca9f971-2bb9-481e-aec9-6a2e4a81a45c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9cc630ad-413f-4422-b2fb-a17ac69551f4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9d3a80cf-384e-471b-9f9f-bc43643a6e93}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9d4366a8-ac2d-40bf-934c-ee75dd85b2a3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9e34b853-088f-4d7c-8c46-ff12e35d4b1e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9e5d40e9-d886-48be-b1fb-8ea6d6e77792}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9e6d01f9-b91c-4f7b-ab9c-36d51f53176d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9e921369-a42d-4995-a104-c70b8fd851ef}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9f630e15-8702-4856-a18a-e8a551ba775e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9f8bcc41-a7d5-4be4-8ca5-fed7e9b9ef90}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{9ff1f0e5-36da-432e-8d05-2785e0741be1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a0476af5-9ae6-45f3-bff4-5d2d5e273406}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a2296086-d25d-4bd9-82ce-e9bc3069ce11}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a2995154-c44a-49ab-9d96-9369562a758c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a31edf00-a7c3-46bc-aa92-fafe629ef68b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a427a452-83c0-42fa-8282-9cd2dfee8fe0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a455690e-5bcb-404d-b18f-b2d56519e1f0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a488e278-95c0-46cd-9af1-499e76152ae8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a4f6a5f9-5fd9-4fdc-8b84-5bec9aee8e57}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a50e97e3-9e33-42ce-9c8d-dff9c5954d72}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a515bc06-5559-43ea-b4b1-5e9ed8da0917}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a52cc1aa-45bb-4bb6-bfea-95701c741110}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a53f772e-191a-4f58-8bc7-a2d11828818d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a640e6ca-cd44-48ff-bbf3-be880788a44e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a66c5687-3851-4edb-9438-5b2ddc136fda}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a68aadc9-9350-4042-bcbe-ac31f686fdd3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a6a33040-0af6-4aae-b89f-7efa2759851f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a6cc1b96-fd29-4cb2-b858-fea6b241c6e7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a6d5030a-42da-402e-a7f0-d24ee969db75}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a70afb4a-b9c2-4bfb-98ca-e840e4af335f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a78e4e64-5a53-4586-9dc5-5686d2402574}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a795ddec-470c-4f26-b6ce-e94bffe2ce7d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a830cdeb-a585-4968-97b3-cfc8f7449102}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{a9bc2d09-fd2b-4fac-accd-b036c0bae409}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{aacece6d-c6ea-436f-911c-81b1006ef24f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ab428d56-8455-4d10-a822-fcf7b979554a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ab4507d9-a033-415d-901a-821eff9f62f5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ab4a5e21-5adc-4d50-879a-4038e0aa40e5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ab971480-0f9b-4021-8b71-4f6eb712d356}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{adcd9d3e-f238-4eca-886b-7931cde13d0e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ae2b98b8-fa77-4262-b872-7409c753b8e4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ae4095a2-1715-486d-bd9b-5a6a1c9e3d24}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ae543aac-d501-4565-b54f-4b24305a644a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{aeed01a6-d10f-41fe-b41c-5895b8a5609b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{af138aee-f8e4-46b4-942d-480f837d7686}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{af419f42-4f3e-4e04-99e2-13d26c9ef8bf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{afae22b9-5801-4aaf-8701-4a1398ba4d15}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b004737f-d599-4e5b-9023-ca89cfe2264f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b0193411-c9f3-47ca-94d8-2ff95f7d1537}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b0c12eae-8769-4566-baa6-95baefcd1fec}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b1147aae-2d73-4d40-b8e3-7bf802e35278}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b14e6e16-6a2f-47e9-9f94-7eb9e1d4c408}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b1584961-1047-4cc8-949e-6d32c9dae70c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b188afc9-e864-4054-84c7-949668cb7396}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b1c25a6b-ea7c-47a2-9de9-08585ef38866}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b1cbd88b-5d88-4a37-b6cc-f59face6b08d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b2710ac7-b83c-4fda-85a5-1be9c342943b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b32d6d7c-870c-4058-9137-9661ca90f41e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b35ee323-7c94-4d46-ba67-d73589c095ab}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b585017c-f83e-4ec8-a9be-e16ba51f3653}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b67dde7b-97a5-4875-bc6a-39f9c8104ad8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b6975ac8-9897-4cf5-be14-8d8cd9595e30}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b71fb804-147c-4c87-b589-c7e99a369c75}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b75bc2bb-e2b7-4573-a288-b43a0643894b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b799f4e1-6fab-4b8f-a515-68e387b5ac1e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b845bd3b-d850-462b-813c-fb83d347a19b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b85a3733-accf-427d-a984-0720890eae39}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b8eba9fa-9d13-4299-876f-1d5c46709577}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b8ff4852-0b25-44f6-a2b7-0df462dfa162}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b920f155-a0c5-46e7-9af5-73d6c59593b9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b9502f0f-1c45-431e-8f4c-4674fc065626}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b996cfb3-e357-4751-9e64-0e7d8d97e6ac}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b9e38303-1e29-460a-990a-4e28109fa80c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{b9e8fefc-a406-41b9-a543-3ee7a5bfbf27}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ba274582-a7ed-4513-a199-353220ec9706}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ba686614-3c35-4a3c-b480-1af1fcfe2188}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bab173d8-ab63-4b81-b56a-e90fcbf8b6b9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bab62c33-7359-4671-82ae-aee100068fde}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{badf116e-dd79-49df-acc4-8429341564b5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bb3a9849-5665-46d4-9ecd-c779cefb4329}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bb444adb-d741-4ce0-a9ad-3ef9b4241081}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bbad4d00-f89e-42a9-8ca5-cf7141f6f977}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bc2dea9a-abbf-4b23-aab2-e04454830cbb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bc52b2f8-aba3-4a26-8d9c-2db34cccebeb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bc5734b6-52ee-4905-a245-9084349b4e86}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bd366bf8-e78f-4b2b-86c5-e91e92f61cb6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bd6ab3d7-37b7-4e8a-9c01-90a1d702eb9d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bddea505-9f6b-431a-b620-c6667ead3cf1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bddf7b1e-43a8-419a-b4fb-65e3136d1043}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{be82287d-8aaf-4fa9-8799-4a0d57d93bfb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{beab21ac-631b-4434-8aa8-e08a027052e7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{befc455e-547d-4c68-94c1-7192fb63f5a3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{bf3fcd24-caad-44ca-9a25-ecde85f8689a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c048a217-46b6-4a1b-960f-bc79637494f6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c0a67f99-d256-43ae-8dd0-c99050863e3d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c0c77ea1-987b-40db-ba87-b1d43d2029fb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c0fe6ba5-de9d-48eb-9644-0d5912569ce3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c18da384-98a6-4149-bf7e-d9df54269b06}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c1b825bb-b9a9-4083-ae1a-c89b0b415765}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c2221336-1f31-42fb-af1c-0b09f64abe44}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c2584c15-b0b6-4285-b202-ed2881f20caa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c2847bdc-a1ee-4108-87fd-c8eb763ee27e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c321ad69-6716-4fe1-952b-f32c402c539c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c338388f-701e-4e3d-a993-1708a07c6cdc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c4600ac3-47e4-4e89-bd69-8a7a230b005c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c4893ad3-e3c5-4de0-93c1-dd5ca415d348}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c495a5ea-20cf-4a15-b293-a181837def70}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c4ea3fa8-d01a-4bbe-9ee2-0f4f898fdb53}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c63081ba-7764-4e01-8927-16f5c248bb35}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c6fc1999-47be-4931-a587-fe03ccb88550}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c70afbfc-bedf-4e72-b204-e4c5055d900b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c7438969-5b4d-427a-a0f4-a8f7e460057a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c758d8e0-0417-4989-96e3-d7fc1aba53fb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c8bd6861-4e65-45b0-877b-fdbf1c6fda08}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c90f8b65-b9d6-435b-b380-cef62d0fd1e2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c9c2bc50-4ea2-456c-b2cd-9cf986ee7bd9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c9cb5dd9-6759-41fb-8560-ba8fcdb8f10f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{c9ec1ea7-3411-4c90-9744-fb41debaa045}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ca2fdbe9-e23a-4c9e-a669-615e4a02e3b0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ca55bd20-b5bf-494f-9778-6a9df4609206}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{caeb4ec3-660d-4a50-8c94-5d46204d83c0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cc577ab4-aae1-47d7-8701-9291c08dd4ac}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ccc638b4-9923-4331-bfe1-5c5e22abd24a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cccce631-07b4-4f95-8c17-8070919132cb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cce4e5b2-a45f-4491-b47b-11816d79da1e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cd348144-62f3-4be5-af9c-ec110ed00a3a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cd83b710-117f-4e41-8893-e9eb62dd1b9b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cda8d7ca-229f-4bce-9231-34adc8a4dbba}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ce55a023-9bd5-4d8f-bd5e-20cfcb77f100}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ce9f70d8-f752-472f-a2e2-0032094c7577}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cee0cfdd-cf95-4115-9db0-82dcb842d75f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{cf318084-158f-44de-b0c6-0f569fb35173}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d059751d-b3ac-43a6-9139-5632649f9333}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d19e426d-9498-4f3b-88fc-64a7f27f1bb9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d1d3e02f-bd2f-41bb-9a9d-81ae973726d1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d1ff4836-aede-49c2-be5d-7cbde9c11120}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d31e6b35-fbc4-4c5f-8de8-dee7ef2fa190}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d34126dc-96e4-4b86-bd72-4e40b9da3732}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d3626cb9-c262-4fd9-9dc6-f6a2000c6527}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d37f1f06-832a-40f0-a1dc-2ee322659d15}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d39408b0-ef1e-438a-93cb-25665b126824}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d3b27c9f-de9c-4de7-9952-c2d3a947e937}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d4b1c836-e8ad-4fc5-b8ef-4d98234f84b3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d505fec6-eccf-4466-a127-fb395db22b66}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d533dcb1-05c5-40d1-9b8c-620eba61744b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d5d3b0c0-5f9b-4351-b8d5-01d440ef51aa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d68795b5-6a56-4646-bcb0-d797d7bbc8fd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d79f9b49-4c38-4040-b633-2976cdc30367}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d804e425-7155-4462-adc5-a9f0ddf9156b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d8f95b6a-7778-494e-a047-4d6c8785ca23}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{d9d9993b-cc47-4e50-b9a4-99a7b47e4123}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{da4b965a-c6a1-4cf7-b7d2-aa0775af8b4c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{dae0895b-3e9a-46ae-a5c4-7d46fdd3ab3d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{dc1e6087-8600-40df-98ad-aec2d727bcd2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{dcc6c6cb-b0c3-414b-a7f3-d6acf037e0fb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ddcf2eec-5961-42b8-bdbe-a390857deee7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{de7fb1f6-768e-41aa-b097-4850677734fd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{df33623b-5f8f-440e-abc4-d3ee7032a5bf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{dfd6c903-6bc3-4c49-be2a-d7b4d66cfdd6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e03bf611-5c2a-4391-a028-50a23a59e7c5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e1d615a3-94d4-44c4-acfe-42bd841530a3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e26e6d20-fb59-4ba6-9995-421d646961c2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e300c182-5bb2-4097-afb6-0f661fc59a99}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e3b1b450-248d-4efb-9611-f0164bffd1f2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e3d1efd1-736d-4925-bb42-6540d7bb6d3c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e3f74d90-0c42-4880-ab69-83c8cdfc4296}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e4206b21-634c-4b42-8ea1-133a0c115b11}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e4557ef7-3387-4734-b50a-c918781e13f3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e546e1df-9b2e-4e43-8929-717262c6aa49}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e59eaa52-cbf5-4b16-8c47-21b2f44d7283}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e643a753-74b7-42e3-abbb-6a1047ea82ef}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e6d8ce2a-19a8-4192-b5a2-57d76fa10a8f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e72b482d-c96d-431d-9522-33a8de0b18a7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e78f28ff-3e9f-48ce-8a6c-ed10297dad5a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e808b4d1-c852-4fc9-8488-e09b00f1710c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e811d8fa-b308-428b-a612-46a533ab3eea}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e8366a4b-a47e-45b5-8446-e315ef19898e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e8d3e23c-db92-417b-83c1-36563f2ed58b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e8dcf696-a581-449c-896f-6f21d2d25449}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e91a7b8b-5fae-461a-8f51-c825158afc70}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e9215866-4e7e-4b6f-a610-165b539a4816}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{e9580bd0-79a7-44f8-8b42-96a9648e1783}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ea7d1ead-3539-4c30-becb-a074b3f56a49}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ea8f5b67-d9b8-4a20-b1de-ea0d77a5ff26}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eb1da878-8576-44b4-80f7-abe4d07ab5c1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eb22cc15-58f7-4042-9078-ba45325634dd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ec1104cf-6af2-4d31-985a-5d797e26ae00}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ec31b64e-fd49-4da3-b457-0ea6ec130273}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ed2de27c-f1e2-47dc-8ecc-58dc4b43da51}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ed84239e-c7bc-4fc6-9a44-10ea1b72c269}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ee359d51-15bc-4481-83f2-5276da5c24f7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ee43918d-bc7b-434e-96bf-964e328a622c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eea51aab-b63d-4211-8fdf-20bba4b36209}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eea53083-ba64-4d99-84ba-e88705d324c1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eebb2f39-1089-4173-aa56-fe2862d97829}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{eeeca6b5-9c57-4845-b329-8f01f69a5931}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ef596257-8064-4dab-91bf-945a3289ee8e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{efbc3c0a-7cab-4f12-ae56-7687109e9ea6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{efbda67a-dbc0-4ff8-a238-ed211630c817}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{efca61e5-5d8b-4e47-b6b3-6c63ac69a278}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{efd3eeda-223a-47bf-b694-0d73fe29f64f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f03376f7-6188-4a39-9e12-642aad4d6844}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f0842e73-8ece-435f-bc50-b6eeb3870444}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f127247d-087c-4404-a75f-49f429fce939}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f1386eae-0f1f-42ba-b48c-01be82fbac46}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f1a2e3e0-ec60-461b-ac37-22ddc6f2557b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f1b508b3-e239-48c2-bc30-28d0144804b6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f246a1d8-97ce-4f13-a1f4-2bb40fd945eb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f2a8aa31-b92c-4716-b1db-41e7d33821bc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f2ab654b-6aa2-4542-be4c-169e2a814eec}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f2b22c51-0f16-44c9-a3bb-838e4637549b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f2e05cab-d555-4c1b-a3fa-636d17d76d1d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f31d6adc-0b9e-4a0b-8d8f-b6959d15cdf6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f3c623e7-39b3-4724-9e5e-ff6aa368d954}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f4b9f725-b431-4f94-8fca-3e9dc2fa96d7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f4bf168d-03dc-4108-9a3b-66f491a5b78f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f5b82434-a0fd-417d-b8e9-a7e27e395abb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f5db9ad1-9ef4-48bb-8831-5911e400031b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f5f53d32-ac51-43b6-8517-4f3d2ec5fdd7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f704a08b-36fa-43ff-8fb7-afe1ae368900}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f82c32d0-48c8-40f4-a092-47a2869e5af4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{f85f0774-0cbd-4718-8a38-2d43243ee499}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fa384f57-8198-4c0c-af75-27f63936c09e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fc4199be-caae-483b-9fcf-7c40d22f3714}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fce7d6da-6202-4664-b170-dc8ebb68679b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fd65c3a2-46b8-4c2b-ad2f-d155539e670f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fdbebcd2-1a90-4ac9-a1ce-d3bc8b851bd7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fea2b116-158d-4f02-bfda-84824547be92}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fef13631-b33b-4486-9546-bf270c6710d3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{fefaa5f7-15aa-400e-83fc-46f47afee395}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ff24a976-5889-44b9-836e-2417d1409187}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ff45754b-c387-478b-bf4e-62ef1c31a6bc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\AudioFile\{ffc21d5c-1582-40cd-8700-86d6c6aa4c03}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Bank\{eb044e0e-12d1-4f26-b8ee-a27bcb1a6874}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\BankFolder\{317a2874-2a15-463e-9652-2b8929b08582}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EffectPresetFolder\{7ba6cc52-ae08-4d3b-aef7-611b83599665}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EncodingSetting\{ff59187f-8033-4d67-b6a5-b987e7cc6970}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{0501d302-f649-4a2e-a29a-149c7f9eca43}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{062f7275-78be-486d-bd1e-579ca3911e38}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{065471b4-ac59-471c-9928-53e29fd1fa77}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{08d63631-d633-47b6-abbe-e762d4cd88f6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{0e3fbaaf-2c97-4b6f-8851-cb89037532a5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{0e734ad7-53d0-43cc-a17f-3519615e009a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{13e8e643-5724-43e5-a963-d5d86ba13e02}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{17bcd780-3630-4b1e-8141-173f713fcdb3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{1d3fb8da-5813-4244-b6a4-3242c776cb13}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{1d937886-09f5-4431-a3c4-d899102b078f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{1e38d1d2-4629-466e-a256-ba6e08db7a8b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{1ed0b141-7cf9-42b3-9a89-82da96c69f72}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{1fcb1e6d-3bdd-4988-bb47-b5bce8f4e589}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{23d9b934-5aca-4e3f-b8c3-b127ae264177}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{23fe89f4-e40e-4f92-88ef-dfe6034978dd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{24ee130c-7f4b-4dbc-97ef-bb10bc5de389}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{2626d496-1068-46ff-a1ab-21d35eac73d9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{26711226-100e-48fd-bd26-b51cc26367d6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{2a26b4cc-89fc-47de-8e24-b4080420178a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{2d2d8458-e363-4bd2-951c-f861258530b3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{2d40b6f1-7e43-4ee8-b395-364fe187495b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{3190aac9-713d-4121-a677-95dd75119f5d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{326ea6b5-a142-473f-a722-1b81909d6a7e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{32d9489a-c048-4253-ab94-3b5be8bf14b4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{3549108d-82db-42d6-a014-b73b81a5b849}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{38b76de5-748d-49a9-a823-84a6aa4762fa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{3a0ad52a-b815-4372-9cca-0b5b37a39dab}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{3c78b44b-176e-40f9-85ca-7c7fb3d4c7a9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{40f70751-9245-4511-996e-b4cd4c8bf70b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{42affaa2-04ea-4a64-a37e-93886956705c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{42bfa2a0-130c-4c38-af5b-a5476f97fde5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{43d874b2-6d89-4e7b-9472-2d788a66f1be}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{4422a84b-34ee-41b6-b196-559cb646f3fa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{44726e28-df3c-413a-ba7e-98d670c49c97}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{461c3a9a-eb2a-468f-adb2-e609c497cd5e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{49ec3988-e944-45b0-93e8-ed2e04673ead}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{4c0ede97-5fcf-4ef1-bd27-692a51f8cef5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{4e56d97f-cfe4-41f5-88f0-5211154f9886}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{4f474b05-9022-41f2-821b-2e177f16c56a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{562abf77-3ada-472f-8c33-ba5f65dd9bcc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{592a7081-eda9-4ebb-b6f5-9e61f19766bf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{5a9b4b4a-16dd-446d-9f3e-fe9daa849f95}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{5dabeb5c-d080-4c2d-a294-6892a9833abe}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{61c524eb-5e14-4b7c-a58a-c09d20866d66}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{67962aac-df7c-4bb4-9c6c-32cfd8fae02a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{69c39cd1-72e5-4226-9378-ae0b77a7e23a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{6d3289c7-9d37-462d-a3b6-65c2bdfd6993}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{6ef4b332-de3d-4263-8c7c-48d9592a0ef9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{7311923f-c155-4a2b-aa32-fb7c7d8bc0ff}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{73f4948f-eaeb-4590-b9d1-22cc19b4c212}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{741d50e6-1a56-4c8b-8bef-9f801a08fa3d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{791c7c09-9ff5-4a4a-829b-6791b85fb3aa}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{7d7a6389-0289-4148-9f34-3d7e046013c5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{7df67013-2f8d-48cd-9303-8c56b245df5d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8429ade8-3c38-4684-8f35-791bca52ba61}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{84f55510-45b6-4c0f-aff9-a50110f7decc}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8754d715-8343-4723-8725-6dad932bba38}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8d20decd-0f77-49c5-b0bd-f2afd4e1f646}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8d7697f5-3e9c-45d7-a89a-921f9136224c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8d956066-b1f0-4610-ba2f-55b5be291932}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{8dcaa276-b3cf-4bcf-853d-6c39c8e682b0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{9017e5c6-c224-4a68-b8d8-d5815c3ff786}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{928e42da-98cb-4d43-821a-631292a5b4ae}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{96bae005-e801-4b7d-b69b-613d99d43ebb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{970b63d0-417d-4c4e-98f1-9021daafc167}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{9737aa7a-fe1f-4695-a616-d063393f2948}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{97618a6c-74bc-45eb-828a-7886659e9f9c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{97d56926-7b7c-40a8-8375-c53844d8e3f4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{9e434dbf-a4ef-4fb4-9e7a-aa34ee3f206f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{9ea96080-a780-4c35-ad8c-c09949a6b9a6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a280183c-c73b-4476-8882-f34da3e7ae6b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a55624b2-0d31-467c-8a65-136879d8a4dd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a571d776-f7bc-4425-b0d4-69ca9dfa6621}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a677b4e7-5fd9-401c-91ec-9af9bb367ec6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a68d7175-031d-41f2-84d2-f2e938384cbb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{a8d03357-e975-47f6-a29c-b7b6bc2010d6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{ac712075-eede-4377-a7ac-29edcca85703}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{b0a43ddc-bb97-44e7-b678-899d6f613fe3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{b0c858d0-8cd7-4a22-be28-d2e74933468e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{b83a134b-f8c8-438d-863e-949c95def959}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{b9d806b6-b5e3-4b88-93ab-d13790db4440}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{bc94e4ef-725b-40c1-8f97-6f73d72fa73f}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{bd63b1c3-34c8-4217-a541-9039e6e8dd97}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{c1e1df58-c516-4b26-b231-0c3fa9a41fc3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{c4a5b2ee-10b8-4ad3-ba00-6ede694a3c72}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{c5e83cdc-4f8f-47e0-acef-e44e31ad61dd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{c9fa49dc-b520-4aeb-931c-760126ec846a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{cf0ac554-63b4-4a2b-b1eb-cf116e17012b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{cf6de680-caa9-4b5b-bd2b-c47d290d16c8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d21c144e-5707-4eb3-98fa-a6e8372528e0}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d3528b3a-b3a1-4050-aaa5-920593b41403}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d44c7330-8ef8-4f23-927f-9d1f593df466}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d477f639-a20b-4de0-921f-de7425180ee9}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d509e6a3-d8cb-4a8c-8108-37961f1ec5af}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d56c7bb8-8476-4bdb-9278-472820fd3d04}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d6fa37f5-5a3e-4fed-bfd6-d44b1a29b5df}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{d855e086-a7a2-436e-a4b6-da954b1f9f52}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{dd4948f1-809a-4f4f-8571-910ea64f54ca}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{dde67870-81b4-408f-8471-42d3c6fcfb58}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{ddf24cb3-e2d7-487b-b77b-ed0eb5b5f6cf}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e0f02e8a-367c-4a52-99df-33662af7a523}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e23fe580-8738-4cdf-a60f-1b710a267ce6}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e335e666-c2a7-4e66-aef3-dfb114633dc8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e5674a27-ba99-4639-87b6-379e88060ea1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e5fb49be-4f5a-459f-9f34-eee6f7aadd15}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e61b8ec4-a20f-422b-a1cc-5ad4d8680102}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e7d73bb8-9a48-4439-8acb-902246f9e0d2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{e97790ac-fe3c-445f-8239-b869b4b974d2}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{eaee76ba-3f3c-483e-8d8e-729517b4f7f1}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{ec052701-3df0-47ff-9b00-51dd2f4d5b19}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{f26adb25-4bfd-4e55-92c8-8cfc7a76eb8a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{f918f77f-70b7-453a-9437-dc3173879fd3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{fe099900-438e-4b23-b3a2-a9b48026adb8}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{fe95821f-0d23-4a84-af0d-f042951f1049}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Event\{fef133ec-c031-4881-af42-a8c33c284954}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{0846aaf3-50a3-4568-8485-1dcea222878d}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{30f1cd1e-ced6-4ea2-aba4-1071194bbf2b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{3dc5d39a-925f-442e-ba4a-388dc2a5e966}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{3ddaad8d-a42b-403e-b6d1-65edb50a8d9b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{71258a5b-f304-455c-a969-e4624ebc5812}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{85a13e24-c938-444f-8faf-2acf45aa4fdd}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{928a5444-7227-470e-8100-85771435dd36}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{99f2e889-40b4-475a-8666-f9283d3a658a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{a32ef989-1375-42b2-85ca-0c086edf9400}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{ab034fab-56c2-4952-a126-b3539f9a76eb}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{c27d4697-d25c-4a80-ad43-6c61a3de16d7}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{d66a12ce-3de3-4d1c-ba03-2043d61a3542}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\EventFolder\{e72310c8-3211-4995-a985-19eeae4511d4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Group\{682c23cd-a72a-4b65-abde-fc988ae1e642}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Group\{e569859b-c08e-415a-ab81-16d386ae6e8c}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Group\{f04cdc84-e19d-47e0-91cc-c778accefb87}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Master.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Mixer.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{0603e750-ab1a-4512-b14f-ee1f79845711}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{22e76f14-cef3-4b1e-8e35-375e9ba5fd5e}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{3a6505d7-3223-4edd-86f4-bf8cf09c17ee}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{3dd0129d-812f-488a-bd89-f1187f390a81}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{3fdf163b-8f9d-44d1-a8ef-4f36cd67cf2a}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{423e0a1a-ef5f-4715-ab0d-243d41543708}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{64354944-1028-43f0-a866-c9fed60bf1b5}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{656555ff-0ff6-4c3f-bf72-d1f980d3182b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{6d89ff69-a14a-49cb-bfaf-1594addd9354}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{88577298-c45f-4d16-9d90-3d147a5d2b57}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{8bd932d3-735b-4a6a-aaea-72fcf24dd60b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{ac2dfcb0-078a-4b35-b808-18dbac4ab65b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{b908c8c0-feb2-4998-ad3f-f791776d5d1b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{d1e4bb1f-97d7-4d4b-80d0-f2fa51fd3d3b}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{e04ceb0e-2bb9-46e9-8ee1-dbedb259d750}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{e5c7966c-ecee-4e52-908b-f1a39ae9dac4}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPreset\{fc78a97a-ecd6-4a8c-b856-4dcf57bac983}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\ParameterPresetFolder\{b6c7ccc4-e5b5-4c6e-bdf9-9f53cce8f2a3}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Platform\{e628c755-ea8e-4e13-abf4-46cee29a4f67}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\SnapshotGroup\{ed6c5abc-549c-4ee1-87a8-d8840197e421}.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Tags.xml" />
+    <None Include="Assets\FMOD_Project\Metadata\Workspace.xml" />
+    <None Include="Assets\NavMeshComponents-master\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Plugins\FMOD\LICENSE.TXT" />
+    <None Include="Assets\ProCore\Polybrush\Font\SIL Open Font License.txt" />
+    <None Include="Assets\ProCore\Polybrush\README.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlendAndSnow.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend_WithMetaData.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Noise.cginc" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_BaseWithDecals.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_DiffuseVertexColor.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_Overlay.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_StandardVertexColor.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend_SfSrc.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_VertexBillboard.shader" />
+    <None Include="Assets\ProCore\Polybrush\ThirdPartyLicenses.txt" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+    <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageAddFromUrlField.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageStatusBar.uxml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

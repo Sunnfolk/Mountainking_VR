@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - FxTemporaire
+  - Interractable
+  - Bed
+  - OccupiedBed
+  - UnoccupiedBed
+  - Safe
+  - Human
+  - Hand
+  - BowlingBall
+  - BowlingPin
+  - BowlingPinContainer
+  - TeaCupEmpty
+  - TeaCupFull
+  - KettleEmpty
+  - KettleFull
+  - TeaBag
+  - NoHitRegister
+  - OutZone
+  - BowlingBall
+  - BowlingPinContainer
+  - BowlingPin
+  - Mole
+  - FoodItem
+  - WildAnimal
+  - AI
+  - Destruct
+  - InteractUI
+  - Crown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Hands
+  - Animals
+  - Objects
+  - IgnoreTeleport
+  - NAVMESH
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{e04ceb0e-2bb9-46e9-8ee1-dbedb259d750}">
+        <property name="name">
+            <value>Hunger</value>
+        </property>
+        <relationship name="folder">
+            <destination>{b6c7ccc4-e5b5-4c6e-bdf9-9f53cce8f2a3}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{95e59b32-3fc7-471d-ba61-0eec555a4723}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{95e59b32-3fc7-471d-ba61-0eec555a4723}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

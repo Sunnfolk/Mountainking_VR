@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Deer_Female_Animator
+  m_Controller: {fileID: 9100000, guid: 548d9c1c746670f41858825b30f242d0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 47660fffa1e984e35bdbb54a5c5a513b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 148465ab97cce418b98036fd486cfa35, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 10219c62be142479b9268fff6a3de668, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f7332929fe0e04ebca57240eb338e09b, type: 2}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{bb444adb-d741-4ce0-a9ad-3ef9b4241081}">
+        <property name="assetPath">
+            <value>Music/Forest/TrollmorMusic3_8.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{89b79d82-0ccb-46cb-ba93-99bfc5311473}</destination>
+        </relationship>
+    </object>
+</objects>

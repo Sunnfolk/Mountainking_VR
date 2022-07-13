@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: c5681a565c4d3604b9bcd54059c617b7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Village_Bridge_1
+    100004: Village_Car_1
+    100006: Village_Car_3
+    100008: Village_Car_3_001
+    100010: Village_Light_1
+    100012: Village_Sign_1
+    100014: Village_Sign_2
+    100016: Village_Sign_3
+    100018: Village_SodHouse_Extra_Door_1
+    100020: Village_SodHouse_Extra_Grass_1
+    100022: Village_SodHouse_Extra_Pine_Large_1
+    100024: Village_SodHouse_Extra_Pine_Sapling_1
+    100026: Village_SodHouse_Extra_Pine_Small_1
+    100028: Village_SodHouse_Extra_Pine_treetrunk_1
+    400000: //RootNode
+    400002: Village_Bridge_1
+    400004: Village_Car_1
+    400006: Village_Car_3
+    400008: Village_Car_3_001
+    400010: Village_Light_1
+    400012: Village_Sign_1
+    400014: Village_Sign_2
+    400016: Village_Sign_3
+    400018: Village_SodHouse_Extra_Door_1
+    400020: Village_SodHouse_Extra_Grass_1
+    400022: Village_SodHouse_Extra_Pine_Large_1
+    400024: Village_SodHouse_Extra_Pine_Sapling_1
+    400026: Village_SodHouse_Extra_Pine_Small_1
+    400028: Village_SodHouse_Extra_Pine_treetrunk_1
+    2100000: "lysebl\xE5lakk"
+    2100002: svarte hjul.001
+    2100004: "lyse bl\xE5 speil"
+    2100006: metallfarge inni dekk
+    2100008: svarte vinduer.001
+    2100010: svarte ruter
+    2100012: Material.039
+    2100014: "lysegr\xF8nnlakk"
+    2100016: "r\xF8d"
+    2100018: metallfarge_
+    2100020: "r\xF8dt skilt_"
+    2100022: metallstang
+    2100024: hvit_
+    2100026: "r\xF8d_"
+    2100028: metall farger
+    2100030: trefarger
+    2100032: svart materiale
+    2100034: Material.036
+    2100036: Wood_sodhouse
+    2100038: Wood_tree_pine_outer
+    2100040: Sodroof
+    2100042: Leaves_trees
+    2100044: Wood_tree_inside
+    2300000: Village_Bridge_1
+    2300002: Village_Car_1
+    2300004: Village_Car_3
+    2300006: Village_Car_3_001
+    2300008: Village_Light_1
+    2300010: Village_Sign_1
+    2300012: Village_Sign_2
+    2300014: Village_Sign_3
+    2300016: Village_SodHouse_Extra_Door_1
+    2300018: Village_SodHouse_Extra_Grass_1
+    2300020: Village_SodHouse_Extra_Pine_Large_1
+    2300022: Village_SodHouse_Extra_Pine_Sapling_1
+    2300024: Village_SodHouse_Extra_Pine_Small_1
+    2300026: Village_SodHouse_Extra_Pine_treetrunk_1
+    3300000: Village_Bridge_1
+    3300002: Village_Car_1
+    3300004: Village_Car_3
+    3300006: Village_Car_3_001
+    3300008: Village_Light_1
+    3300010: Village_Sign_1
+    3300012: Village_Sign_2
+    3300014: Village_Sign_3
+    3300016: Village_SodHouse_Extra_Door_1
+    3300018: Village_SodHouse_Extra_Grass_1
+    3300020: Village_SodHouse_Extra_Pine_Large_1
+    3300022: Village_SodHouse_Extra_Pine_Sapling_1
+    3300024: Village_SodHouse_Extra_Pine_Small_1
+    3300026: Village_SodHouse_Extra_Pine_treetrunk_1
+    4300000: Village_Car_3_001
+    4300002: Village_Bridge_1
+    4300004: Village_Car_3
+    4300006: Village_Car_1
+    4300008: Village_Sign_1
+    4300010: Village_Sign_2
+    4300012: Village_Sign_3
+    4300014: Village_Light_1
+    4300016: Village_SodHouse_Extra_Door_1
+    4300018: Village_SodHouse_Extra_Grass_1
+    4300020: Village_SodHouse_Extra_Pine_Small_1
+    4300022: Village_SodHouse_Extra_Pine_Sapling_1
+    4300024: Village_SodHouse_Extra_Pine_Large_1
+    4300026: Village_SodHouse_Extra_Pine_treetrunk_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

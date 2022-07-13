@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 3b3ddca7c2934410d95917e8e00508cb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Farm_TP
+    100004: Fjord
+    100006: Forrest_TP
+    100008: Landscape
+    100010: Landscape_1_1
+    100012: Landscape_2
+    100014: Mountain_Range
+    100016: Mountain_Range_2
+    100018: Mountain_Top_Easter_egg_TP
+    100020: Null
+    100022: Redued_Mountain
+    100024: River
+    100026: Road_Down_TP
+    100028: Slope_TP
+    100030: TP_Areas
+    100032: Village_TP
+    100034: Waterfall
+    400000: //RootNode
+    400002: Farm_TP
+    400004: Fjord
+    400006: Forrest_TP
+    400008: Landscape
+    400010: Landscape_1_1
+    400012: Landscape_2
+    400014: Mountain_Range
+    400016: Mountain_Range_2
+    400018: Mountain_Top_Easter_egg_TP
+    400020: Null
+    400022: Redued_Mountain
+    400024: River
+    400026: Road_Down_TP
+    400028: Slope_TP
+    400030: TP_Areas
+    400032: Village_TP
+    400034: Waterfall
+    2100000: No Name
+    2100002: Mat
+    2100004: Mat.5
+    2100006: Mat.1
+    2100008: Mat.2
+    2100010: Mat.4
+    2300000: Farm_TP
+    2300002: Fjord
+    2300004: Forrest_TP
+    2300006: Landscape_1_1
+    2300008: Landscape_2
+    2300010: Mountain_Range
+    2300012: Mountain_Range_2
+    2300014: Mountain_Top_Easter_egg_TP
+    2300016: Redued_Mountain
+    2300018: River
+    2300020: Road_Down_TP
+    2300022: Slope_TP
+    2300024: Village_TP
+    2300026: Waterfall
+    3300000: Farm_TP
+    3300002: Fjord
+    3300004: Forrest_TP
+    3300006: Landscape_1_1
+    3300008: Landscape_2
+    3300010: Mountain_Range
+    3300012: Mountain_Range_2
+    3300014: Mountain_Top_Easter_egg_TP
+    3300016: Redued_Mountain
+    3300018: River
+    3300020: Road_Down_TP
+    3300022: Slope_TP
+    3300024: Village_TP
+    3300026: Waterfall
+    4300000: Mountain_Top_Easter_egg_TP
+    4300002: Forrest_TP
+    4300004: Farm_TP
+    4300006: Road_Down_TP
+    4300008: Slope_TP
+    4300010: Village_TP
+    4300012: Waterfall
+    4300014: Fjord
+    4300016: River
+    4300018: Redued_Mountain
+    4300020: Landscape_2
+    4300022: Landscape_1_1
+    4300024: Mountain_Range
+    4300026: Mountain_Range_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 7538f650650ec4b049242474ef81d837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: df88200c11de446669b10a2cc7d09f2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: 62b62ceaf515d4443a7068f6d1165afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.4
+    second: {fileID: 2100000, guid: 4bd527cfb2dd7486f9380ba4647f6132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.5
+    second: {fileID: 2100000, guid: 8ba58791ed7764b00b08440b30af0c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 5efd511e75a0e454f9f865b53ab548ec, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

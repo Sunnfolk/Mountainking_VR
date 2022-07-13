@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 842ab852d0f6e0b4380baa83bfbfc0ec
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Farm_AnimalPen_1
+    100002: Farm_AnimalPen_2
+    100004: //RootNode
+    100006: Farm_Hayrack_1
+    100008: Farm_Hayrack_Grass_1
+    100010: Farm_Hayrack_Grass_2
+    100012: Farm_Henhouse_1
+    100014: Farm_Tractor_1
+    100016: Farm_WaterTrough_1
+    400000: Farm_AnimalPen_1
+    400002: Farm_AnimalPen_2
+    400004: //RootNode
+    400006: Farm_Hayrack_1
+    400008: Farm_Hayrack_Grass_1
+    400010: Farm_Hayrack_Grass_2
+    400012: Farm_Henhouse_1
+    400014: Farm_Tractor_1
+    400016: Farm_WaterTrough_1
+    2100000: "r\xF8d"
+    2100002: "lysebl\xE5tt bur"
+    2100004: Material.028
+    2100006: HJUL
+    2100008: Inni hjul
+    2100010: pipe
+    2100012: inni hjul2.001
+    2100014: hjul.001
+    2100016: inni hjul
+    2100018: inni hjul2
+    2100020: Material.011
+    2100022: Material.012
+    2100024: "scart r\xF8r_"
+    2100026: "enda mer gr\xF8n"
+    2100028: "m\xF8rkebl\xE5tt kylling hus.001"
+    2100030: Wood_hayrack.001
+    2100032: Wood_tree_inside.001
+    2100034: Water.001
+    2100036: Hayrack_grass1.001
+    2100038: Hayrack_grass2.001
+    2300000: Farm_AnimalPen_1
+    2300002: Farm_AnimalPen_2
+    2300004: Farm_Hayrack_1
+    2300006: Farm_Hayrack_Grass_1
+    2300008: Farm_Hayrack_Grass_2
+    2300010: Farm_Henhouse_1
+    2300012: Farm_Tractor_1
+    2300014: Farm_WaterTrough_1
+    3300000: Farm_AnimalPen_1
+    3300002: Farm_AnimalPen_2
+    3300004: Farm_Hayrack_1
+    3300006: Farm_Hayrack_Grass_1
+    3300008: Farm_Hayrack_Grass_2
+    3300010: Farm_Henhouse_1
+    3300012: Farm_Tractor_1
+    3300014: Farm_WaterTrough_1
+    4300000: Farm_AnimalPen_1
+    4300002: Farm_AnimalPen_2
+    4300004: Farm_Tractor_1
+    4300006: Farm_Henhouse_1
+    4300008: Farm_WaterTrough_1
+    4300010: Farm_Hayrack_Grass_2
+    4300012: Farm_Hayrack_Grass_1
+    4300014: Farm_Hayrack_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: c95e28859490a8f438b3198d7e86d7fb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

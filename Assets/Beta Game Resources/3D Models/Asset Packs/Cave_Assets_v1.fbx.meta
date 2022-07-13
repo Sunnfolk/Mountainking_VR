@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: ee07ac1ad79c13540ba1076766fd2f19
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cave_Bone
+    100004: Cave_Crown_1
+    100006: Cave_Mushroom_1_Head
+    100008: Cave_Mushroom_1_Stem
+    100010: Cave_Mushroom_2_Head
+    100012: Cave_Mushroom_2_Stem
+    100014: Cave_Mushroom_Glow_1
+    100016: Cave_Mushroom_Glow_2
+    100018: Cave_Mushroom_Glow_3
+    100020: Cave_Mushroom_Glow_4
+    100022: Cave_Mushroom_Glow_5
+    100024: Cave_Ribcage_1
+    100026: Cave_Ribcage_2
+    100028: Cave_Skull_1
+    100030: Cave_Throne_1
+    100032: Cave_Torch_1
+    400000: //RootNode
+    400002: Cave_Bone
+    400004: Cave_Crown_1
+    400006: Cave_Mushroom_1_Head
+    400008: Cave_Mushroom_1_Stem
+    400010: Cave_Mushroom_2_Head
+    400012: Cave_Mushroom_2_Stem
+    400014: Cave_Mushroom_Glow_1
+    400016: Cave_Mushroom_Glow_2
+    400018: Cave_Mushroom_Glow_3
+    400020: Cave_Mushroom_Glow_4
+    400022: Cave_Mushroom_Glow_5
+    400024: Cave_Ribcage_1
+    400026: Cave_Ribcage_2
+    400028: Cave_Skull_1
+    400030: Cave_Throne_1
+    400032: Cave_Torch_1
+    2100000: bone
+    2100002: stonecrown
+    2100004: Crystal
+    2100006: mosscrown
+    2100008: Rock
+    2100010: brun fakkel .001
+    2100012: brun fakkel_
+    2100014: Material.004
+    2100016: Mushroom_top_red.001
+    2100018: Mushroom_top_glow_green.001
+    2100020: Mushroom_black.001
+    2100022: Mushroom_bottom_glow_orange.001
+    2100024: Mushroom_bottom_beige.001
+    2100026: Mushroom_top_glow_pink.001
+    2100028: Mushroom_bottom_yellow.001
+    2100030: Mushroom_top_glow_blue.001
+    2300000: Cave_Bone
+    2300002: Cave_Crown_1
+    2300004: Cave_Mushroom_1_Head
+    2300006: Cave_Mushroom_1_Stem
+    2300008: Cave_Mushroom_2_Head
+    2300010: Cave_Mushroom_2_Stem
+    2300012: Cave_Mushroom_Glow_1
+    2300014: Cave_Mushroom_Glow_2
+    2300016: Cave_Mushroom_Glow_3
+    2300018: Cave_Mushroom_Glow_4
+    2300020: Cave_Mushroom_Glow_5
+    2300022: Cave_Ribcage_1
+    2300024: Cave_Ribcage_2
+    2300026: Cave_Skull_1
+    2300028: Cave_Throne_1
+    2300030: Cave_Torch_1
+    3300000: Cave_Bone
+    3300002: Cave_Crown_1
+    3300004: Cave_Mushroom_1_Head
+    3300006: Cave_Mushroom_1_Stem
+    3300008: Cave_Mushroom_2_Head
+    3300010: Cave_Mushroom_2_Stem
+    3300012: Cave_Mushroom_Glow_1
+    3300014: Cave_Mushroom_Glow_2
+    3300016: Cave_Mushroom_Glow_3
+    3300018: Cave_Mushroom_Glow_4
+    3300020: Cave_Mushroom_Glow_5
+    3300022: Cave_Ribcage_1
+    3300024: Cave_Ribcage_2
+    3300026: Cave_Skull_1
+    3300028: Cave_Throne_1
+    3300030: Cave_Torch_1
+    4300000: Cave_Bone
+    4300002: Cave_Crown_1
+    4300004: Cave_Throne_1
+    4300006: Cave_Ribcage_2
+    4300008: Cave_Ribcage_1
+    4300010: Cave_Skull_1
+    4300012: Cave_Torch_1
+    4300014: Cave_Mushroom_2_Head
+    4300016: Cave_Mushroom_1_Stem
+    4300018: Cave_Mushroom_1_Head
+    4300020: Cave_Mushroom_2_Stem
+    4300022: Cave_Mushroom_Glow_5
+    4300024: Cave_Mushroom_Glow_4
+    4300026: Cave_Mushroom_Glow_3
+    4300028: Cave_Mushroom_Glow_2
+    4300030: Cave_Mushroom_Glow_1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
